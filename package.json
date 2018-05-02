@@ -1,0 +1,19 @@
+{
+  "name": "ndapp",
+  "version": "1.0.0",
+  "description": "Node Demo App",
+  "main": "index.js",
+  "repository": "https://github.com/misha-ds/ndapp",
+  "author": "jnissi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "express-jwt-permissions": "^1.1.0",
+    "express-pouchdb": "^4.0.0",
+    "http-proxy-middleware": "^0.18.0",
+    "pouchdb": "^6.4.3",
+    "pouchdb-adapter-node-websql": "^6.4.3"
+  }
+}
