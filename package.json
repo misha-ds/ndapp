@@ -15,5 +15,8 @@
     "http-proxy-middleware": "^0.18.0",
     "pouchdb": "^6.4.3",
     "pouchdb-adapter-node-websql": "^6.4.3"
+  },
+  "scripts":{
+  	"start":"node index.js"
   }
 }
