@@ -101,4 +101,4 @@ app.use(function (err, req, res, next) {
 
 
 https.createServer(httpsOptions,app).listen(8081,function(){console.log("secure "+8081)});
-http.createServer(app).listen(8080,function(){console.log("normal "+8080)});
+http.createServer(app).listen(80,function(){console.log("normal "+80)});
